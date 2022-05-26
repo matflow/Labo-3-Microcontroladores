@@ -106,7 +106,7 @@ void loop() {
   if (temperatura <= 30){
     digitalWrite(2, HIGH);  // azul
   } else {digitalWrite(2, LOW);}
-  if (temperatura >= 80){
+  if (temperatura >= 42){
     digitalWrite(8, HIGH);
   } else {digitalWrite(8, LOW);}
 

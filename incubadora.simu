@@ -150,7 +150,7 @@ Circuit Id: TextComponent-118
 
 Unique  Id: TextComponent-119: 
 Circuit Id: TextComponent-119
-<item labelrot="0" x="-696" valLabelx="0" labely="-24" hflip="1" valLabely="0" vflip="1" Font="Helvetica [Cronyx]" Show_id="false" itemtype="TextComponent" mainComp="false" Border="1" rotation="0" y="-52" labelx="-16" Font_Size="10" valLabRot="0" circPos="0,0" Fixed_Width="false" circRot="6.5145280497e-312" boardRot="-1e+6" boardPos="-1e+6,-1e+6" Margin="5" Opacity="1" id="TextComponent-119" objectName="TextComponent-119" Text="Temperatura salida"/>
+<item labelrot="0" x="-668" valLabelx="0" labely="-24" hflip="1" valLabely="0" vflip="1" Font="Helvetica [Cronyx]" Show_id="false" itemtype="TextComponent" mainComp="false" Border="1" rotation="0" y="-24" labelx="-16" Font_Size="10" valLabRot="0" circPos="0,0" Fixed_Width="false" circRot="6.5145280497e-312" boardRot="-1e+6" boardPos="-1e+6,-1e+6" Margin="5" Opacity="1" id="TextComponent-119" objectName="TextComponent-119" Text="Temperatura salida"/>
 
 Unique  Id: TextComponent-120: 
 Circuit Id: TextComponent-120
