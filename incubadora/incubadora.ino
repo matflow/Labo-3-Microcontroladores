@@ -104,7 +104,7 @@ void loop() {
   // LEDs alerta
   if (temperatura <= 30){
     digitalWrite(2, HIGH);  // azul
-  } else {digitalWrite(7, LOW);}
+  } else {digitalWrite(2, LOW);}
   if (temperatura >= 80){
     digitalWrite(8, HIGH);
   } else {digitalWrite(8, LOW);}
