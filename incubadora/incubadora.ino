@@ -58,6 +58,7 @@ void setup() {
 void loop() {
   // put your main code here, to run repeatedly:
 
+  Serial.println("loop");  // para saber orden de datos en python
   // Temperatura operación
   t_op = analogRead(T_OP);
   setPoint = map(t_op, 0, 1023, 0, 80);
@@ -68,7 +69,7 @@ void loop() {
   // Sensor humedad
   int humid = analogRead(HUMEDAD);
   humid = map(humid, 0, 1023, 0, 100);
-  Serial.print("humedad: "); Serial.println(humid);
+  Serial.println(humid);
   delay(500);
 
   // Resistencia termistor
@@ -85,7 +86,7 @@ void loop() {
 
   // Algoritmo PID
   incubadora.Compute();
-  Serial.print("out: "); Serial.println(salida);
+  Serial.println(salida);
   delay(300);
 
   // Imprimir en el LCD
@@ -108,4 +109,9 @@ void loop() {
   if (temperatura >= 80){
     digitalWrite(8, HIGH);
   } else {digitalWrite(8, LOW);}
+
+  // switch para deshabilitar/habilitar communicación serial
+  if (digitalRead(A4) == HIGH){
+    Serial.end();
+  }
 }
